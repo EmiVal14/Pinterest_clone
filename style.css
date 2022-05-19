@@ -6,12 +6,66 @@ body {
     background: white;
   }
   
-
-.logo {
+  .header {
+    align-items: center;
+    background: white;
+    color: white;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .logo {
     margin-left: 30px;
     width: 70px;
 
   }
+
+  .profile_i {
+    margin-right: 30px;
+  }
+  
+  .profile_i ul {
+    display: none;
+    list-style: none;
+    margin: 0px 0px 0px -14px;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+  }
+
+  .profile_i:hover ul, ul:hover {
+    display: block;
+  }
+  
+  .profile_i li {
+    margin: 10px 0px;
+  }
+  
+  .profile_i li a {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  .profile_i li a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile_i--profile {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .profile_i--profile img {
+    background-color: black;
+    margin-right: 8px;
+    width: 40px;
+  }
+
   
   .input {
     background-color: white;
@@ -29,3 +83,16 @@ body {
   ::placeholder {
     color: rgb(24, 24, 24);
   }
+
+  .user {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .user img {
+    background-color: blueviolet;
+    margin-right: 8px;
+    width: 40px;
+  }
+  
