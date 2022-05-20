@@ -1,11 +1,11 @@
-#galeria { 
+#galeria{ 
     margin: 0px; 
     width: 100%; 
     column-count: 5; 
     padding: 3px 3px; 
 } 
 
-#galeria img { 
+#galeria img{ 
     border-radius: 20px; 
     padding: 4px;
 }
